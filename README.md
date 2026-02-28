@@ -23,7 +23,6 @@ El objetivo principal de este proyecto es consolidar el desarrollo backend y fro
 - **ASP.NET Web Forms**
 - **SQL Server (ADO.NET - Arquitectura Conectada)**
 - **HTML5, CSS3 y Bootstrap 5**
-- **AJAX (UpdatePanel & ScriptManager)**
 - **Visual Studio**
 
 ---
