@@ -11,7 +11,7 @@ El objetivo principal de este proyecto es consolidar el desarrollo backend y fro
 - **Gestión de Usuarios y Roles:** Sistema de registro y login seguro. Diferenciación de vistas y permisos entre usuarios estándar y administradores.
 - **Catálogo Abierto y Detalle:** Grilla de productos disponible para invitados (sin registro) con un buscador en tiempo real y filtros combinados por Categoría y Marca.
 - **Panel de Administración (Backoffice):** Acceso restringido para el CRUD completo (Alta, Baja y Modificación) de artículos en la base de datos.
-- **Sistema de Favoritos Interactivo:** Implementación de corazones dinámicos (❤️/🤍) actualizados en tiempo real mediante `UpdatePanel` (AJAX) sin necesidad de recargar la página.
+- **Sistema de Favoritos Interactivo:** Implementación de corazones dinámicos (❤️/🤍) actualizados en tiempo real mediante `UpdatePanel` sin necesidad de recargar la página.
 - **Gestión de Perfiles:** Panel "Mi Perfil" con validación de expresiones regulares (Regex) y subida de imágenes de avatar personalizadas al servidor, con un sistema de respaldo (UI-Avatars) para usuarios sin foto.
 - **Validación de Datos:** Validaciones estrictas tanto del lado del cliente como del servidor para asegurar la integridad de precios, códigos y formatos.
 
@@ -48,7 +48,7 @@ TPFinalNivel3_Castro/
     ├── ListaArticulos.aspx // Grilla de administración del catálogo (Solo Admin)
     ├── Login.aspx          // Autenticación de usuarios
     ├── MiPerfil.aspx       // Gestión de cuenta de usuario y actualización de avatar
-    ├── MisFavoritos.aspx   // Gestión de artículos guardados por el usuario (AJAX)
+    ├── MisFavoritos.aspx   // Gestión de artículos guardados por el usuario
     ├── Registro.aspx       // Creación de nuevas cuentas de usuario
     ├── Site.Master         // Plantilla principal (Navegación y lógica de sesión/seguridad)
     ├── Global.asax         // Configuración de eventos de ciclo de vida de la aplicación
